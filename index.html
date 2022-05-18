@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Antall siffer i et kortnummer</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <meta name="description" content="Beregn antall siffer i et tall">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <body>
+
+
+    <div class="base">
+      <div class="header">
+      <h4>Beregn antall siffer i et kortnummer</h4>
+    </div>
+<div class="container">
+
+
+
+
+<div class="block">
+  <div id="title1" class="title1"><p class="title1">Kortnummer</p> </div>
+    <input type="text" name="cardnumber" id="cardNumber" placeholder="9999999990000000000" minlength="1"  onchange="calculate_digits()">
+
+
+<div class="digitresult" id="digitresult">0 siffer
+</div>
+
+<div class="btn" id="btn">
+  <input type="button" name="Calculate" value="Regn ut"
+  onclick="calculate_digits()">
+
+</div>
+</div>
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+  </body>
+</html>

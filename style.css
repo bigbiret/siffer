@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('back-blue.jpg');
+  background-size: cover;
+}
+
+.container{
+min-height: fit-content;
+width: 80%;
+border-radius: 20px;
+height: auto; 
+padding: 30px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 120px;
+margin-top: 100px;
+background: white;
+background-position: center;
+box-shadow: 12px 12px 10px black;
+}
+
+
+.base{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  display: block;
+  float: none;
+
+}
+
+.header{
+
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  width: 60vmax;
+  margin-top: 50px;
+  box-shadow: 10px 10px 12px black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: xx-large;
+}
+
+
+
+.block{
+align-content: center;
+text-align: center;
+border-radius: 20px;
+}
+
+.title1{
+  font-size: 30px;
+  font-family:sans-serif;
+  color: black;
+  padding-top: 0.4px;
+  margin-bottom: 20px;
+  text-shadow: 0.7px 0.7px 0.7px black;
+  border-radius: 10px;
+  background: white;
+  text-align: center;
+}
+
+input[type=text]{
+  width: 240px;
+  min-height: 60px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  font-size: 17px;
+  padding: 12px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+input[type=text]:hover{
+  border-radius: 20px;
+}
+
+input[type=text]:focus{
+  border-radius: 25px;
+}
+
+input[type=button]{
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  background-color: #35b2e9;
+  height: 50px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: larger;
+  background-position: center;
+  border: 0.5px solid white;
+  box-shadow: 2px 2px 2px black;
+}
+
+.btn{
+  text-align: center;
+}
+
+input[type=button]:hover{
+  cursor: pointer;
+  border-radius: 10px;
+  background-image: url('back-blue.jpg');
+  background-position: center;
+  box-shadow: 2px 2px black;
+}
+
+.digitresult{
+  font-size: 20px;
+  width: fit-content;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: 2px solid black;
+  margin-top: 30px;
+  box-shadow: 1px 1px 1px black;
+}
